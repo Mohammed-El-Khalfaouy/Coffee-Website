@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cofee Website</title>
+    <!-- Linking Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- Linking Swiper CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--Header/Navbar-->
+    <header>
+        <nav class="navbar section-content">
+        <a href="#" class="nav-logo">
+            <h2 class="logo-text">☕️ Coffee</h2>
+        </a>
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+            </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+            </li>
+              <li class="nav-item">
+                <a href="#menu" class="nav-link">Menu</a>
+            </li>
+              <li class="nav-item">
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+            </li>
+              <li class="nav-item">
+                <a href="#gallery" class="nav-link">Gallery</a>
+            </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+            </li>
+        </ul>
+        <button id="menu-open-button" class="fas fa-bars"></button>
+
+        </nav>
+    </header>
+    <main>
+      <!--Hero/Section-->
+      <section class="hero-section">
+        <div class="section-content">
+        <div class="hero-details">
+          <h2 class="title">Best Coffee</h2>
+          <h3 class="subtitle">Make your day great with our special coffee!</h3>
+          <p class="description">Welcome to our coffee paradise, where every bean tells a story and every cup sparks joy.</p>
+          <div class="buttons">
+            <a href="#" class="button order-now ">Order Now</a>
+            <a href="#" class="button contact-us">Contact Us</a>
+          </div>
+        </div>
+        <div class="hero-image-wrapper">
+          <img src="images/coffee-hero-section.png" alt="Hero"
+           class="hero-image">
+        </div>
+        </div>
+      </section>
+
+      <!--About section-->
+      <section class="about-section" id="about">
+        <div class="section-content">
+         <div class="about-image-wrapper">
+          <img src="images/about-image.jpg" alt="About" class="about-image">
+         </div>
+         <div class="about-details">
+          <h2 class="section-title">About Us</h2>
+          <p class="text">
+           At Coffee House in Marrakech, Morocco, we take pride in being a favorite gathering place for coffee enthusiasts and conversation lovers. Our mission is to provide an exceptional coffee experience in a cozy, welcoming setting where guests can relax, connect, and enjoy every moment in comfort.
+          </p>
+         <div class="social-link-list">
+          <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+         </div>
+         </div>
+        </div>
+      </section>
+      <!--Menu section-->
+      <section class="menu-section" id="menu">
+        <h2 class="section-title">Our Menu</h2>
+        <div class="section-content">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <img src="images/hot-bev.png" alt="Hot Bev" class="menu-image">
+              <h3 class="name">Capuccino</h3>
+              <p class="text">A warm embrace in a cup — rich, 
+                smooth, and crowned with a cloud of creamy foam
+                , turning every sip into a little moment of joy.
+              </p>
+            </li>
+            <li class="menu-item">
+              <img src="images/americano.jpg" alt="Americano" class="menu-image">
+              <h3 class="name">Americano</h3>
+              <p class="text">A refined expression of simplicity smooth,
+                 deep, and elegantly balanced, 
+                 offering the pure essence of coffee in its most graceful form.
+              </p>
+            </li>
+            <li class="menu-item">
+              <img src="images/espresso.jpg" alt="Espresso" class="menu-image">
+              <h3 class="name">Espresso</h3>
+              <p class="text">A bold masterpiece rich, 
+                aromatic, and full-bodied. Each sip delivers an awakening of flavor and intensity, 
+                crafted for true coffee connoisseurs.
+              </p>
+            </li>
+            <li class="menu-item">
+              <img src="images/macchiato.jpg" alt="Macchiato" class="menu-image">
+              <h3 class="name">Macchiato</h3>
+              <p class="text">Where strength meets sophistication
+                 the intensity of espresso gently softened by a delicate touch of milk, 
+                 creating a moment of perfect harmony.
+              </p>
+            </li>
+            <li class="menu-item">
+              <img src="images/frappe.jpg" alt="Frappé" class="menu-image">
+              <h3 class="name">Frappé</h3>
+              <p class="text">An indulgent blend of chilled coffee and creamy texture refreshing, 
+                silky, and designed to delight with every cool sip.
+              </p>
+            </li>
+            <li class="menu-item">
+              <img src="images/mocha.jpg" alt="Mocha" class="menu-image">
+              <h3 class="name">Mocha</h3>
+              <p class="text">A luxurious fusion of espresso and fine chocolate smooth, 
+                velvety, and irresistibly decadent, crafted for those who savor the sweeter side of coffee.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+      </section>
+     <!-- Testimonials section -->
+<section class="testimonials-section" id="testimonials">
+  <h2 class="section-title">Testimonials</h2>
+  <div class="section-content">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        
+        <div class="swiper-slide testimonial">
+          <img src="images/user-1.jpg" alt="User" class="user-image">
+          <h3 class="name">Sarah Brend</h3>
+          <i class="feedback">"From the first sip, it felt like a warm hug in a cup — rich, smooth, and absolutely unforgettable!"</i>
+        </div>
+
+        <div class="swiper-slide testimonial">
+          <img src="images/user-2.jpg" alt="User" class="user-image">
+          <h3 class="name">Adam Collins</h3>
+          <i class="feedback">"Bold, balanced, and brewed to perfection — it’s the kind of coffee that makes mornings worth it!"</i>
+        </div>
+
+        <div class="swiper-slide testimonial">
+          <img src="images/user-3.jpg" alt="User" class="user-image">
+          <h3 class="name">Sophie Bennett</h3>
+          <i class="feedback">"Elegant, aromatic, and simply addictive — every sip feels like a little moment of joy!"</i>
+        </div>
+
+        <div class="swiper-slide testimonial">
+          <img src="images/user-4.jpg" alt="User" class="user-image">
+          <h3 class="name">James Rivera</h3>
+          <i class="feedback">"Strong enough to wake the soul, smooth enough to make you stay for another cup!"</i>
+        </div>
+
+        <div class="swiper-slide testimonial">
+          <img src="images/user-5.jpg" alt="User" class="user-image">
+          <h3 class="name">Emma Rodriguez</h3>
+          <i class="feedback">"Soft, creamy, and full of charm — it’s not just coffee, it’s pure comfort in a cup!"</i>
+        </div>
+
+      </div>
+
+      <!-- Swiper Pagination + Arrows -->
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </div>
+</section>
+
+      <!--Gallery section-->
+      <section class="gallery-section" id="gallery">
+        <h2 class="section-title">Gallery</h2>
+        <div class="section-content">
+         <ul class="gallery-list">
+          <li class="gallery-item">
+            <img src="images/gallery-1.jpg" alt="Gallery" class="gallery-image">
+          </li>
+          <li class="gallery-item">
+            <img src="images/gallery-2.jpg" alt="Gallery" class="gallery-image">
+          </li>
+          <li class="gallery-item">
+            <img src="images/gallery-3.jpg" alt="Gallery" class="gallery-image">
+          </li>
+          <li class="gallery-item">
+            <img src="images/gallery-4.jpg" alt="Gallery" class="gallery-image">
+          </li>
+          <li class="gallery-item">
+            <img src="images/gallery-5.jpg" alt="Gallery" class="gallery-image">
+          </li>
+          <li class="gallery-item">
+            <img src="images/gallery-6.jpg" alt="Gallery" class="gallery-image">
+          </li>
+         </ul>
+        </div>
+      </section>
+
+      <!-- Contact section-->
+       <section class="contact-section" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="section-content">
+          <ul class="contact-info-list">
+            <li class="contact-info">
+              <i class="fa-solid fa-location-crosshairs"></i>
+              <p>7A Rue des Jasmins, Quartier de la Medina,</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-envelope"></i>
+              <p>cafe.azahara.marrakech@gmail.com</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-lieu-crosshairs"></i>
+              <p>Marrakech 40000, Morocco</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-phone"></i>
+              <p>+212 600 000 999</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>08:00 – 22:30 (daily)</p>
+            </li>
+          </ul>
+
+          <form action="#" class="contact-form">
+            <input type="text" placeholder="Your name " class="form-input" required>
+            <input type="email" placeholder="Your email" class="form-input" required>
+            <textarea placeholder="Your message" class="form-input" 
+            required></textarea>
+            <button class="submit-button">Submit</button>
+          </form>
+        </div>
+       </section>
+
+       <!--Footer section-->
+       <footer class="footer-section">
+        <div class="section-content">
+          <p class="copyright-text">© 2025 Coffee Paradise</p>
+
+          <div class="social-link-list">
+          <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+          <p class="policy-text">
+            <a href="#" class="policy-link">Privacy policy</a>
+            <span class="separator">•</span>
+            <a href="#" class="policy-link">Refund policy</a>
+          </p>
+        </div>
+       </footer>
+    </main>
+
+  <!-- Linking Swiper script-->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  
+  <!-- Linking custom script-->
+    <script src="script.js"></script>
+</body>
+</html>
