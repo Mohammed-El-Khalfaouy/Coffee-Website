@@ -1,31 +1,56 @@
-☕ Coffee Website
-A modern, responsive website for coffee lovers featuring an elegant design and smooth user experience.
-🚀 Demo
-Live Site: https://mohammed-el-khalfaouy.github.io/Coffee-website/
-✨ Features
+# ☕ Coffee House Website
 
-Fully responsive design
-Modern and clean UI
-Smooth animations
-Cross-browser compatible
+A modern, responsive website for a coffee shop located in Marrakech, Morocco. This project showcases a clean and inviting design for coffee enthusiasts and provides information about the coffee house experience.
 
-🛠️ Technologies
+## 🌐 Live Demo
 
-HTML5
-CSS3
-JavaScript
+[View Live Website](https://mohammed-el-khalfaouy.github.io/Coffee-Website/)
 
-📦 Installation
-# Clone the repository
-git clone https://github.com/Mohammed-El-Khalfaouy/Coffee-website.git
+## 📖 About
 
-# Navigate to project
-cd Coffee-website
+Coffee House is a favorite gathering place for coffee enthusiasts and conversation lovers in Marrakech. This website provides an exceptional online experience that reflects our cozy, welcoming atmosphere where guests can learn about our offerings and connect with us.
 
-# Open in browser
-open index.html
-👤 Author
-Mohammed El Khalfaouy
-GitHub: @Mohammed-El-Khalfaouy
+## 🚀 Features
 
-⭐ Star this repo if you like it!
+- Responsive design for all devices
+- Modern and clean user interface
+- Information about our coffee house
+- Easy navigation
+- Optimized for performance
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+
+## 📦 Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Mohammed-El-Khalfaouy/Coffee-Website.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd Coffee-Website
+```
+
+3. Open `index.html` in your browser or use a local server.
+
+## 📱 Contact
+
+For more information about Coffee House, visit our [website](https://mohammed-el-khalfaouy.github.io/Coffee-Website/).
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+## 👤 Author
+
+**Mohammed El Khalfaouy**
+- GitHub: [@Mohammed-El-Khalfaouy](https://github.com/Mohammed-El-Khalfaouy)
+
+---
+
+Made with ☕ and ❤️ in Marrakech, Morocco
